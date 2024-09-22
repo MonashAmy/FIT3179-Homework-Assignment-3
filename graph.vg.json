@@ -38,11 +38,11 @@
           "color": {
             "field": "YearlyChange",
             "type": "quantitative", 
-            "title": "Yearly Change"
+            "title": "Yearly Change (%)"
           },
           "tooltip": [
             {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-            {"field": "YearlyChange", "type": "quantitative", "title": "Yearly Change"}
+            {"field": "YearlyChange", "type": "quantitative", "title": "Yearly Change (%)"}
           ]
         }
       }
